@@ -34,7 +34,7 @@ public class webdemoTest {
 
  @Test
  public void testToCompareDoubles() {
-  driver.get("http://52.32.20.180:8761");
+  driver.get("https://www.google.com");
   try
    {
     Thread.sleep(5000);
