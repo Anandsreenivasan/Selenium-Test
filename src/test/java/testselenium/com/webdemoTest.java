@@ -15,7 +15,7 @@ public class webdemoTest {
  public void StartBrowser_NavURL() {
   String currentDir = System.getProperty("user.dir");
   System.out.println(currentDir);
-  String geckoDriverLocation = currentDir + "/src/tools/geckodriver-v0.11.1-linux64/geckodriver";
+  String geckoDriverLocation = currentDir + "/src/tools/geckodriver-v0.11.1-win64/geckodriver.exe";
   String Xport = System.getProperty("lmportal.xvfb.id", ":1");
 
   System.setProperty("webdriver.gecko.driver",geckoDriverLocation);
